@@ -1,0 +1,5 @@
+depuis repertoire pere:
+javac -d classes -sourcepath src src/AppliVisage1.java 
+javadoc -d docs src/*.java
+jar --create -v --file visages.jar */Dessin.class */isageRond.class 
+java -cp classes AppliVisage1
